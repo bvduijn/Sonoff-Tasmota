@@ -353,6 +353,7 @@ enum SupportedModules {
   WAGA,
   SYF05,
   SONOFF_L1,
+  NODEMCU,
   MAXMODULE};
 
 #define USER_MODULE        255
@@ -719,7 +720,8 @@ const uint8_t kModuleNiceList[] PROGMEM = {
   SYF05,
   YTF_IR_BRIDGE,
   WITTY,               // Development Devices
-  WEMOS
+  WEMOS,
+  NODEMCU
 };
 
 // Default module settings
