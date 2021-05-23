@@ -12,7 +12,7 @@ sonoff/user_config_override.h
 build
 firmware.map
 firmware.asm
-platformio_override.ini
+tasmota
 
 ## Visual Studio Code specific ######
 .vscode
@@ -20,3 +20,5 @@ platformio_override.ini
 .vscode/c_cpp_properties.json
 .vscode/launch.json
 *.bak
+platformio_override.ini
+platformio_override.ini
